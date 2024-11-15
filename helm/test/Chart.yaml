@@ -1,7 +1,7 @@
 apiVersion: "v2"
-name: "fddb-exporter-umbrella"
+name: "hello-world-umbrella"
 version: 1
 dependencies:
-  - name: fddb-exporter
-    version: 1.0.3
-    repository: "oci://ghcr.io/itobey/charts"
+  - name: hello-world
+    version: 0.1.0
+    repository: "https://helm.github.io/examples"
